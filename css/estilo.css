@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+main {
+    display: flex;
+    width: 40vw;
+    margin: 15.4vh auto;
+}
+.imagem {
+    width: 100%;
+    border-radius: 3% 0 0 3%;
+}
+.imagem #produto {
+    display: flex;
+    width: 100%;
+    border-radius: 3% 0 0 3%;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-radius: 0 3% 3% 0;
+    align-items: center;
+}
+.conteudo .descricao {
+    padding: 10%;
+}
+.conteudo .descricao #categoria {
+    font: 700 60% 'Montserrat', sans-serif;
+    letter-spacing: 0.4vw;
+    color: hsl(228, 12%, 48%);
+    padding-bottom: 5%;
+}
+.conteudo .descricao #nome {
+    font: 700 150% 'Fraunces', serif;
+    padding-bottom: 5%;
+}
+.conteudo .descricao p {
+    font: 500 67% 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.7;
+    padding-bottom: 5%;
+}
+.conteudo .descricao #preco {
+    display: flex;
+    font: 700 150% 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+.conteudo .descricao #preco > del {
+    display: flex;
+    align-items: center;
+    font: 500 45% 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-left: 5%;
+}
+.conteudo .botao {
+    width: 80%;
+}
+.conteudo .botao a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 500 70% 'Montserrat', sans-serif;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    padding: 4%;
+    
+}
+.conteudo .botao a #carrinho {
+    width: 7%;
+    padding-right: 5%;
+}
+.conteudo .botao :hover {
+    background-color: hsl(212, 21%, 14%);
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+}

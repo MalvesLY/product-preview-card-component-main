@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+        width: 70%;
+    }
+    .imagem #produto {
+        border-radius: 3% 3% 0 0;
+    }
+    .conteudo {
+        border-radius: 0 0 3% 3%;
+    }
+    .conteudo .botao {
+        margin-bottom: 10%;
+    }
+}
